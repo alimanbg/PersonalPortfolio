@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Alima</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .project-card {
+        border: 4px solid #950606;
+        height: 100%;
+      }
+      .project-card img {
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 4px solid #950606;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg main-nav">
+      <div class="container">
+        <button
+          class="navbar-toggler mx-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="experience.html"
+                id="expDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Experience ▼
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="experience.html#work">Work</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="experience.html#academics"
+                    >Academic</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section
+        class="page-header text-center py-5"
+        style="background-color: #950606"
+      >
+        <div class="container" style="color: #ffffff">
+          <h1>Projects</h1>
+          <p>Some of my work that are open to public for exploration</p>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="project-card">
+                <img
+                  src="hk.png"
+                  class="w-100"
+                  alt="Picture of Hong Kong harbour with some charts on it"
+                />
+                <div class="p-4 text-center">
+                  <h3>Wage Disperity Analysis</h3>
+                  <p>
+                    Quantified mechanisms behind HK's 15% intra-city wage gap.
+                    Solo academic project completed in 4 weeks—scalable to
+                    production environments. Ready for real-world applications
+                    in labor economics, compensation analytics, urban policy.
+                  </p>
+                  <a
+                    href="https://github.com/alimanbg/Wage-By-Location"
+                    target="_blank"
+                    class="project-link"
+                    >View on GitHub →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="project-card">
+                <img
+                  src="kg.jpg"
+                  class="w-100"
+                  alt="Picture of the Kyrgyz mountains"
+                />
+                <div class="p-4 text-center">
+                  <h3>Kyrgyzstan Meat Sustainability</h3>
+                  <p>
+                    Analyzed survey data (n=51) on meat consumption and
+                    sustainable practices in Kyrgyzstan using Python, revealing
+                    economic drivers behind high meat use and identifying key
+                    behavioral and environmental patterns through statistical
+                    and PCA analysis.
+                  </p>
+                  <a
+                    href="https://github.com/alimanbg/Meat-Consumption-Kyrgyzstan"
+                    target="_blank"
+                    class="project-link"
+                    >View on GitHub →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="project-card">
+                <img
+                  src="vaccine.jpg"
+                  class="w-100"
+                  alt="Picture of a Vaccine"
+                />
+                <div class="p-4 text-center">
+                  <h3>Reddit Vaccine Myths</h3>
+                  <p>
+                    Analyzed 1,600+ posts from Reddit’s r/VaccineMyths using
+                    VADER sentiment analysis, LDA topic modeling, and Louvain
+                    community detection in Python, uncovering two echo chambers
+                    with predominantly negative sentiment and dense
+                    misinformation networks visualized through Matplotlib and
+                    NetworkX.
+                  </p>
+                  <a
+                    href="https://github.com/alimanbg/Reddit-Vaccine-Myths"
+                    target="_blank"
+                    class="project-link"
+                    >View on GitHub →</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="project-card">
+                <img
+                  src="bank.webp"
+                  class="w-100"
+                  alt="Illustration of a phone with banking symbols"
+                />
+                <div class="p-4 text-center">
+                  <h3>Banking Application</h3>
+                  <p>
+                    Collaborated on designing a relational database for an
+                    online banking application modeled after ZA Bank, Hong
+                    Kong’s first fully licensed digital bank. Developed ER
+                    models, normalized schemas, and SQL scripts to support key
+                    functionalities like fund transfers, account management, and
+                    user differentiation. Gained practical experience in
+                    database design, data integrity, and collaborative
+                    development using GitHub while analyzing how digital banking
+                    innovations enhance user experience and financial
+                    accessibility.
+                  </p>
+                  <a
+                    href="https://github.com/alimanbg/Banking-Application"
+                    target="_blank"
+                    class="project-link"
+                    >View on GitHub →</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ASSIGNMENT REQ: Table -->
+      <section class="skills-section py-5">
+        <div class="container">
+          <h2 class="text-center text-white mb-4">Skills & Tools</h2>
+          <table class="skills-table mx-auto">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Skills</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Programming</td>
+                <td>Python, R, SQL, HTML, CSS, Javascript, PHP</td>
+              </tr>
+              <tr>
+                <td>Python Libraries</td>
+                <td>
+                  pandas, numpy, matplotlib, seaborn, scikit-learn, requests,
+                  pytorch, tensorflow
+                </td>
+              </tr>
+              <tr>
+                <td>Tools</td>
+                <td>
+                  Tableau, ArcGIS, Weka, SPSS, KNIME, Excel Modeling (VLOOKUP,
+                  pivot tables, data modeling), AirTable, Git, Jupyter, VS Code
+                </td>
+              </tr>
+              <tr>
+                <td>Concepts</td>
+                <td>
+                  Machine Learning, Data Visualization, Statistical Analysis,
+                  ETL
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer text-center py-4">
+      <p>© 2026 Alima. All Rights Reserved.</p>
+      <p class="footer-sub">Built with precision and purpose.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
