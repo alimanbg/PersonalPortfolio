@@ -8,7 +8,7 @@ Created my personal portfolio using HTML, CSS and JS; deployed through Vercel
 
 ### Deployed URL
 
-[https://alima-portfolio.vercel.app](https://alima-portfolio.vercel.app)
+[[https://alima-portfolio.vercel.app](https://alima-portfolio.vercel.app)](https://personal-portfolio-xi-sepia.vercel.app)
 
 ---
 
