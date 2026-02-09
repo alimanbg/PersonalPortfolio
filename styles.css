@@ -101,7 +101,7 @@ body {
     font-size: 1.1rem;
   }
   .statement-section {
-    min-height: 300px;
+    min-height: 200px;
     padding: 80px 20px;
   }
 }
