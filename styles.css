@@ -97,6 +97,9 @@ body {
   .statement-text {
     font-size: 2rem;
   }
+  .statement-text-subtitle {
+    font-size: 1.1rem
+  }
 }
 
 .content-section {
